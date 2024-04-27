@@ -22,6 +22,26 @@ fun main(){
     //UInt = 32-bit
     //ULong = 64-bit
 
-    val age: UByte = 100U;
+    val age: UByte = 100U
 
+    //Char
+
+    val singleChar: Char = 'a'
+
+
+    // Unicode
+
+    val unicode = '\u00AE'
+
+    println(unicode)
+
+    // Strings
+
+    var name: String = "Cecon"
+
+    for (c in name) {
+        println(c)
+    }
+
+    println(name.replace('C', 'p'))
 }

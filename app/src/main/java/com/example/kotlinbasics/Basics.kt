@@ -22,7 +22,7 @@ fun main(){
     //UInt = 32-bit
     //ULong = 64-bit
 
-    val age: UByte = 100U
+//    val age: UByte = 100U
 
     //Char
 
@@ -44,4 +44,20 @@ fun main(){
     }
 
     println(name.replace('C', 'p'))
+
+
+    //IF ELSE C-like
+
+    // COMPARISON C-like
+
+    // READLN
+
+    var value = readln().toInt()
+    var age = value.toInt()
+
+    if(age >= 18) {
+        println("hey")
+    } else {
+        println("not hey")
+    }
 }

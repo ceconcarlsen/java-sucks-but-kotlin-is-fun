@@ -22,5 +22,6 @@ fun main(){
     //UInt = 32-bit
     //ULong = 64-bit
 
+    val age: UByte = 100U;
 
 }
